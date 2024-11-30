@@ -116,3 +116,16 @@ body {
   border: 1px solid red;
   background-color: red;
 }
+
+.fields {
+  font-family: Consolas, sans-serif;
+  display: flex;
+  flex-direction: column;
+  margin: 20px 60px;
+}
+
+.fields .field-item {
+  text-align: center;
+  margin: 10px 10px;
+  padding: 10px 10px;
+}
