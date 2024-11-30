@@ -17,6 +17,7 @@ body {
 }
 
 .navbar .brand h1{
+  color: red;
   font-family: Consolas, Georgia, 'Times New Roman', Times, serif;
   cursor: pointer;
   text-transform: uppercase;
@@ -33,6 +34,7 @@ body {
 }
 
 .navbar ul li a {
+  color: red;
   text-decoration: none;
   font-size: large;
   font-family: Consolas, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -40,15 +42,26 @@ body {
   padding-right: 6px;
 }
 
+.navbar ul li a:hover{
+  color: red;
+}
+
 .navbar .email-btn {
   padding: 8px 20px;
+  color: red;
   background-color: black;
-  border: 1px solid white;
+  border: 1px solid red;
   border-radius: 7px;
   font-size: large;
   font-family: Consolas, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   text-transform: uppercase;
   cursor: pointer;
+}
+
+.navbar .email-btn:hover {
+  color: black;
+  border: 1px solid red;
+  background-color: red;
 }
 
 .hero .brand-intro {
@@ -74,4 +87,32 @@ body {
   font-size: 18px;
   font-weight: lighter;
   text-align: justify;
+}
+
+.hero .brand-intro .brand-intro-text h2 {
+  color: #ff5353f9;
+}
+
+.hero-button {
+  margin: 10px;
+  color: black;
+  padding: 10px 12px;
+}
+
+.hero-button {
+  padding: 8px 20px;
+  color: red;
+  background-color: black;
+  border: 1px solid red;
+  border-radius: 18px;
+  font-size: 20px;
+  font-family: Consolas, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.hero-button:hover {
+  color: black;
+  border: 1px solid red;
+  background-color: red;
 }
